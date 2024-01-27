@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Luke's Pregame Party!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Navigating to different pages here -->
+        <!-- "location.href" navigates to different pages -->
+        <header>
+            <nav>
+                <ul>
+                    <li><button onclick="location.href='index.html';">Home</button></li>
+                    <li><button onclick="location.href='food.html';">Food</button></li>
+                    <li><button onclick="location.href='music.html';">Music</button></li>
+                    <li><button onclick="location.href='travel.html';">Travel Info</button></li>
+                    <li><button onclick="location.href='rsvp.html';">RSVP</button></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Get ready to party!</h1>
+        <!-- Top title on the page -->
+        <div class="quick_facts">
+            <h2 style="width: 200px; text-align: center;">Quick Facts</h2>
+            <p >Down below are a couple of things to know. Here are some things you'll need to know for Friday's party. Here you'll find some basic info and ways to amplify your experience!</p>
+            <h4 class="head"><strong>Where?:</strong> One on Centre Student Apartments</h4>
+                <ul class="where">
+                    <!-- Hyperlink to Google Maps -->
+                    <li><a href="https://shorturl.at/noJP4"><strong>4500 Centre Ave, Pittsburgh, PA 15213</strong></a></li>
+                    <li>Check out travel info <a href="travel.html"> <strong>here!</strong></a></li>
+                </ul>
+            <h4 class="head"><strong>When?:</strong> Feb 2, 2024 @ 9 pm - 11 pm</h4>
+                <ul class="when">
+                    <li>Tell the front desk that you are a guest of Luke Cusato</li>
+                </ul>
+            <h4 class="head"><strong>Food?:</strong> Snacks and beverage s will be provided!</h4>
+                <ul class="food">
+                    <!-- Hyperlink to the food page. Easy access for the user -->
+                    <li>If you plan to have dinner before, <a href="food.html"><strong>check out some of my favorite spots!</strong></a></li>
+                </ul>
+            <h4 class="head"><strong>Music?:</strong> Be our guest and our dj!</h4>
+                <ul class="music">
+                    <!-- Hyperlink to music page. Easy access for the user. -->
+                    <li>Add your favorite songs <a href="music.html"><strong> here!</strong></a></li>
+                </ul>
+            <!-- Classes used to group elements when styling in style.css -->
+            <h4 class="head"><strong>Want to come?:</strong> RSVP <a href="rsvp.html"><strong> here!</strong></a></h4>
+                <ul class="rsvp">
+                    <li>Please RSVP by <strong>Thursday Feb 1, 2024 @ 11:59 pm</strong></li>
+                </ul>
+            <h4 class="head"><strong>Questions?: </strong>Feel free to contact me!</h4>
+                <ul class="questions">
+                    <li>Email: <a href="mailto:luc59@pitt.edu"><strong>luc59@pitt.edu</strong></a></li>
+                    <li>Phone: <a href="sms:9142728104"><strong>(914) 272 - 8104</strong></a></li>
+                </ul>
+            </div>
+    </body>
+    <footer>
+        <!-- email button sends a message to luc59@pitt.edu -->
+        <!-- "location.href" allows user to send an email to the specified address -->
+        <button onclick="location.href='mailto:luc59@pitt.edu';">Email</button>
+        <button onclick="location.href='sms:9142728104';">Phone/SMS</button>
+    </footer>
+</html>

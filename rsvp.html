@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Page title in the browser tab. Specific to each file/page in the site -->
+    <title>RSVP!</title>
+    <link rel="js_dropdown" href="form.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><button onclick="location.href='index.html';">Home</button></li>
+                <li><button onclick="location.href='food.html';">Food</button></li>
+                <li><button onclick="location.href='music.html';">Music</button></li>
+                <li><button onclick="location.href='travel.html';">Travel Info</button></li>
+                <li><button onclick="location.href='rsvp.html';">RSVP</button></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Please RSVP Here!</h1>
+    <!-- RSVP choice messages. A different message will pop up depending on form submission -->
+    <div id="coming" style="display:none;">
+        <h3>I'm glad you can come, see you on Friday @ 9 pm!</h3>
+    </div>
+    <div id="not_coming" style="display:none;">
+        <h3>We'll miss you, hope to see you at the next party!</h3>
+    </div>
+    <h4>If you plan to come, please fill out the form down below!</h4>
+    <div id="rsvp">
+        <!-- Class used to style certain p elements differently -->
+        <p class="p-border"><strong>Are you coming? (Interact with the submission form. Try out different answers)</strong></p>
+        <form>
+            <input type="radio" id="yes" name="rsvp" value="Yes">
+            <label for="yes"> Yes</label><br>
+            <input type="radio" id="no" name="rsvp" value="No">
+            <label for="no"> No</label><br>
+        </form>
+        <br>
+    </div>
+    <!-- style="display:none;" hides all content in the div unless correct form choice is selected -->
+    <!-- This is also controlled in the form.js file -->
+    <div id="extra_info" style="display:none;">
+        <form>
+            <label for="extra_info"><strong>Extra Info:</strong></label><br>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name"><br>
+            <label for="age">Age: </label>
+            <input type="text" id="age" name="age"><br>
+            <label for="phone">Phone: </label>
+            <input type="text" id="phone" name="phone"><br>
+            <label for="dietary_restrictions">Dietary Restrictions: </label>
+                <!-- Making a dropdown menu for dietary restrictions -->
+                <select name="dietary_restrictions" id="dietary_restrictions">
+                    <option id="select" value="blank" disabled selected>Select</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="halal">Halal</option>
+                    <option value="kosher">Kosher</option>
+                    <option value="lactose">Lactose Free</option>
+                    <option value="allergy">Food Allergy</option>
+                    <option value="other">Other</option>
+                </select><br>
+        </form>
+    </div>
+    <!-- Hiding these items -->
+    <div id="specify" style="display:none;">
+        <form>
+            <label for="specify">Allergy: </label>
+            <input type="textbox" id="allergy" name="allergy"><br>
+            <label for="specify">Other: </label>
+            <input type="textbox" id="other" name="other">
+        </form>
+    </div>
+    <div id="confirmation">
+        <!-- Connecting JavaScript elements inline -->
+        <button id="submit" onclick="form_submit()">Submit</button>
+    </div>
+    <!-- Linking JavaScript file -->
+    <script src="form.js"></script>
+</body><br>
+<footer>
+    <div class="footer">
+        <button onclick="location.href='mailto:luc59@pitt.edu';">Email</button>
+        <button onclick="location.href='sms:9142728104';">Phone/SMS</button>
+    </div>
+</footer>
+</html>

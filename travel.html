@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Travel Info!</title>
+        <!-- Unique title based on page contents -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><button onclick="location.href='index.html';">Home</button></li>
+                    <li><button onclick="location.href='food.html';">Food</button></li>
+                    <li><button onclick="location.href='music.html';">Music</button></li>
+                    <li><button onclick="location.href='travel.html';">Travel Info</button></li>
+                    <li><button onclick="location.href='rsvp.html';">RSVP</button></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Find the best way to get to the party!</h1>
+        <!-- iframe to show the map of the party location. Iframe of Google Maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0778537939495!2d-79.95803091252091!3d40.451413797778955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2309e5962ab%3A0x53e3ddb949765fb8!2sOne%20On%20Centre!5e0!3m2!1sen!2sus!4v1705638986780!5m2!1sen!2sus" title="Map" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="travel_options">
+            <h2 style="width: 200px; text-align: center;">Travel Options</h2>
+            <p>Below are some ways to get to the party! Pittsburgh offers many options of public transportation and is a very walkable city.</p>
+            <h4><strong>Driving</strong></h4>
+                <ul class="drive">
+                    <p style="border:none">Driving is the quickest way to get to the party. If you would like to park your car, please contact <a href="tel:(412) 593-2381"><strong>(412) 593-2381</strong></a>, and let the front desk know that you are a guest of Luke Cusato and a valet member will come to assist you!</p>
+                </ul>
+            
+            <h4 ><strong>Biking</strong></h4>
+            <iframe src="https://pogoh.com/system-map/" title="biking_map" width="600" height="450" allowfullscreen=""></iframe>
+            <!-- iframe showing users POGOH bike map. Map shown on site to give users convenience.  -->
+            <ul class="biking">
+                <p style="border:none">Biking is another convenient way to get to the party. Pittsburgh is full of many bike stations, offering riders both manual and electric bikes.</p>
+                <p style="border:none"><strong>New riders</strong> should visit the <a href="http://tinyurl.com/mtjyvpjj"><strong>POGOH Website</strong></a> to view payment and subscription options.</p>
+                <p style="border:none"><strong>Pitt students</strong> should download the POGOH app and sign up for their free membership using their school login.</p>
+                <!-- Many p elememts to give most info per method of transportation -->
+            </ul>
+
+            <h4 ><strong>Busses</strong></h4>
+            <ul class="busses">
+                <p style="border:none">Busses are another great option for getting to the party on Friday. The PRT busses run all throughout Pittsburgh. The bussess make many stops and many rounds so you'll be sure to catch a ride!</p>
+                <p style="border:none"><strong>New riders</strong> should visit the <a href="https://www.rideprt.org/fares-and-passes/"><strong>PRT Fares and Passes page</strong></a> to view fare options.</p>
+                <p style="border:none"><strong>Pitt students</strong> are able to ride all PRT busses free with their student ID's!</p>
+            </ul>
+
+            <h4 ><strong>Rideshare Services</strong></h4>
+            <ul class="rideshare">
+                <p style="border:none">One last option is catching a rideshare service on the way to the party. We all know and love the convenice of calling an Uber or a Lyft to come pick us up!</p>
+                <p style="border:none"><strong>Uber</strong> can be planned ahead of time by visiting the <a href="https://www.uber.com/"><strong>Uber website</strong></a>.</p>
+                <p style="border:none"><strong>Lyft</strong> also offers the same plan-ahead services, and this can be done at the <a href="https://www.lyft.com/"><strong>Lyft Website</strong></a>.</p>
+                <!-- a tag to connect users directly to rideshare services in order to book rides. -->
+            </ul>
+    </div>
+    </body>
+    <footer>
+        <div class="footer">
+            <button onclick="location.href='mailto:luc59@pitt.edu';">Email</button>
+            <button onclick="location.href='sms:9142728104';">Phone/SMS</button>
+        </div>
+    </footer>
+</html>

@@ -1,0 +1,174 @@
+header {
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffe37a;
+}
+
+header button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: #3D3D90;
+    color: #EEECE7;
+}
+
+header li {
+    display: inline-block;
+    
+}
+
+/* Background color #3D3D90 */
+body {
+    background-color: #3D3D90;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #EEECE7;
+}
+
+h2 {
+    border: 10px solid #ffe37a;
+    background-color: #353839;
+    color: #EEECE7;
+    padding: 10px;
+}
+
+/* Submission popup message */
+/* Text color #3 #d8031c */
+h3 {
+    border: none;
+    padding: 15px;
+    background-color: #353839;
+    color: #d8031c;
+    font-size: 24px;
+}
+
+.head h4, h4 {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 5px solid #ffe37a;
+    background-color: #353839;
+    color: #EEECE7;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    background-color: #353839;
+    color: #EEECE7;
+    padding: 10px;
+}
+
+.p-border {
+    border: 10px solid #ffe37a;
+}
+
+.busses p {
+    margin: 0;
+}
+
+.biking p {
+    margin: 0;
+}
+
+.rideshare p {
+    margin: 0;
+}
+
+form {
+    border: none;
+    width: 300px;
+    padding: 15px;
+    background-color: #353839;
+    color: #EEECE7;
+    font-size: 20px;
+}
+
+/* Text color #2 #3D3D90 */
+#submit {
+    width: 100px;
+    height: 40px;
+    background-color: #EEECE7;
+    color: #3D3D90 ;
+    font-size: 18px;
+}
+
+#dietary_restrictions {
+    width: 100px;
+    height: 40px;
+    background-color: #EEECE7;
+    color: #3D3D90 ;
+    display: inline-block;
+}
+
+#select {
+    text-align: center;
+    color: #3D3D90;
+    font-size: 18px;
+}
+
+iframe {
+    border: 10px solid #ffe37a;
+    padding: 10px;
+}
+
+li a {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+li {
+    color: #EEECE7;
+}
+
+.squared-title {
+    border: 5px solid black;
+    padding: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Calling by class and grouping specific elements to certain styles  */
+.rsvp, .questions, .music, .food, .when, .where  {
+    background-color: #353839;
+    color: #EEECE7;
+    padding: 10px;
+}
+
+/* Making each hyperlink stand out with opposite text colors */
+/* Text color #1 #ffe37a */
+a {
+    color: #ffe37a;
+}
+
+/* Putting a box around the footer to highlight its section on the page */
+footer {
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffe37a;
+}
+
+footer button {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background-color: #3D3D90;
+    color: #EEECE7;
+}
+
